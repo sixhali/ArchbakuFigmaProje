@@ -997,3 +997,32 @@ footer{
     justify-content: space-between;
 }
 
+
+/* open closed Mobilebar */
+
+
+.links-mobile{
+    position: absolute;
+    z-index: 1;
+    top:233.5px;
+    right: 0px;
+    background: #2D2F36;
+    width: 100%;
+    max-width: 200px;
+    height: 106vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#xmark{
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+#linksMobile{
+    display: none;
+}
