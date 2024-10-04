@@ -1,0 +1,761 @@
+@media (max-width:1400px){
+    .headerContent{
+        display: flex;
+        gap: 10px;
+    }
+
+    .content_2 .links {
+        display: flex;
+        gap: 0px;
+    }
+
+    .content_2 a{
+        position: relative;
+        text-align: center;
+        height: 10vh;
+    }
+    
+    .content_2 a::before{
+        content: "□";
+        position: absolute ;
+        display: inline-block;
+        top: 20px;
+        left: 10px;
+        
+    }
+
+
+    .container_3 h4{
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 75px;
+    }
+
+    .container_3 p{
+        margin-top: 20px;
+        font-family: Roboto-light;
+        max-width: 650px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30.09px;
+        color: white;
+    }
+
+    .support_content{
+        max-width: 1300px;
+    }
+    .support_box{
+        max-width: 350px;
+    }
+
+    .support_cotainer h3{
+        position: relative;
+        left: 90px;
+        max-width: 60px;
+
+    }
+
+    .support_box h4{
+        font-size: 25px;
+    }
+
+    .news_container h4{
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    .news_content{
+      max-width: 1300px;
+      margin: auto;
+     
+     
+    }
+}
+
+
+
+
+
+
+@media (max-width:1200px){
+    .headerContent{
+        display: flex;
+        gap: 10px;
+    }
+
+    .content_2 .links{
+        display: none;
+        
+    }
+
+    .bars{
+        display: block;
+    }
+
+
+    .container_3 h4{
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 75px;
+    }
+    
+    .container_3 p{
+        margin-top: 20px;
+        font-family: Roboto-light;
+        max-width: 500px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30.09px;
+        color: white;
+    }
+
+    .aboutimg img{
+        max-width: 400px;
+    }
+
+    .Projects{
+        height: 170vh;
+    }
+
+
+    .Project_Box{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 150px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        max-width: 800px;
+    }
+
+
+    .titlebtn{
+     max-width: 500px;
+    
+    }
+
+    .more{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        width: 100%;
+        max-width: 200px;
+        z-index: 1;
+        gap: 50px;
+        position: absolute;
+        bottom: 30px;
+    }
+
+    .support_content{
+        max-width: 800px;
+    }
+    .support_box{
+        max-width: 350px;
+        height: 55vh;
+    }
+
+    .support_box h4{
+        font-size: 25px;
+    }
+
+    .support_cotainer h3{
+        position: relative;
+        left: 0px;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    
+    .texhniques_content{
+        max-width: 800px;
+        margin-bottom: 30px;
+    }
+
+    .news_container h4{
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    .news_content{
+      max-width: 900px;
+      margin: auto;
+     
+     
+    }
+
+    .personal_content{
+        max-width: 1000px;
+    }
+
+
+}
+
+
+
+@media (max-width:992px){
+    .headerContent{
+        display: flex;
+        gap: 10px;
+    }
+
+    .content_2 .links{
+        display: none;
+        
+    }
+
+    .bars{
+        display: block;
+    }
+
+
+    .container_3 h4{
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 75px;
+    }
+    
+    .container_3 p{
+        margin-top: 20px;
+        font-family: Roboto-light;
+        max-width: 500px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30.09px;
+        color: white;
+    }
+
+    .aboutimg img{
+        max-width: 300px;
+    }
+
+
+    .abouttextbtn h4{
+        font-size: 40px;
+        max-width: 260px;
+        text-align: center;
+        margin:30px auto;
+    }
+
+    .abouttextbtn p{
+        font-size: 18px;
+        max-width: 500px;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    .abouttextbtn button{
+        margin: auto;
+    }
+
+    .Project_Box{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        max-width: 800px;
+    }
+    .Projects{
+        height: fit-content;
+    }
+
+
+    .titlebtn{
+     max-width: 500px;
+    
+    }
+
+    .more{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        width: 100%;
+        max-width: 200px;
+        z-index: 1;
+        gap: 50px;
+        position: absolute;
+        bottom: 30px;
+    }
+
+    .support_content{
+        max-width: 800px;
+    }
+    .support_box{
+        max-width: 300px;
+        padding: 30px 30px;
+        height: 50vh;
+    }
+
+
+
+    .support_cotainer h3{
+        position: relative;
+        left: 0px;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .support_box h4{
+        font-size: 15px;
+    }
+
+    .texhniques_content{
+        max-width: 700px;
+        margin-bottom: 30px;
+    }
+
+    .news_container h4{
+        margin: auto;
+    }
+
+    .news_content{
+      max-width: 700px;
+      margin: auto;
+     
+     
+    }
+
+    .personal_content{
+        max-width: 700px;
+    }
+
+    .contactin{
+        display: flex;
+        gap: 50px;
+    }
+
+    .input_content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input_1 input[type="text"]{
+        padding: 14px 50px;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .input_container h4{
+        text-align: center;
+    }
+
+    .inputbtn textarea{
+       max-width: 400px;
+  
+    }
+
+    .inputbtn button{
+       
+        margin: auto;
+
+    }
+
+    .footer_container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+
+@media(max-width:820px){
+    .support_box{
+        max-width: 300px;
+        height: fit-content;
+    }
+}
+
+
+
+@media (max-width:768px){
+    .headerContent{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .content_2 .links{
+        display: none;
+        
+    }
+
+    .bars{
+        display: block;
+    }
+
+
+    .container_3 h4{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 75px;
+    }
+    
+    .container_3 p{
+        margin-top: 20px;
+        font-family: Roboto-light;
+        max-width: 500px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21.09px;
+        color: white;
+    }
+
+    .aboutimg img{
+        max-width: 300px;
+    }
+
+
+    .abouttextbtn h4{
+        font-size: 40px;
+        max-width: 260px;
+        text-align: center;
+        margin:30px auto;
+    }
+
+    .abouttextbtn p{
+        font-size: 18px;
+        max-width: 500px;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    .abouttextbtn button{
+        margin: auto;
+    }
+
+
+    .about_Container{
+     display: flex;
+     margin-top: 30px;
+     flex-direction: column;
+     height: 100vh;
+    }
+
+    .Projects{
+        height: fit-content;
+    }
+
+
+    .Project_Box{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        max-width: 1300px;
+    }
+
+
+    .titlebtn{
+     max-width: 500px;
+    
+    }
+
+    .more{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        width: 100%;
+        max-width: 200px;
+        z-index: 1;
+        gap: 50px;
+        position: absolute;
+        bottom: 30px;
+    }
+    .support_content{
+        max-width: 650px;
+    }
+    .support_box{
+        max-width: 300px;
+        padding: 30px 30px;
+        height: 50vh;
+    }
+    .support_box h4{
+        font-size: 15px;
+    }
+
+    .support_cotainer h3{
+        position: relative;
+        left: 0px;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .texhniques_content{
+        max-width: 300px;
+    }
+
+    .news_container h4{
+       margin: auto;
+    }
+    .news_content{
+     max-width: 600px;
+     margin: auto;
+    
+    
+    }
+
+    .personal_content{
+        max-width: 350px;
+    }
+
+    .contactin{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .input_content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input_1 input[type="text"]{
+        padding: 14px 50px;
+        max-width: 400px;
+        margin: auto;
+
+    }
+
+    .input_container h4{
+        text-align: center;
+    }
+
+    .inputbtn textarea{
+       max-width: 400px;
+  
+    }
+
+    .inputbtn button{
+       
+        margin: auto;
+
+    }
+    .footer_container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+@media (max-width:576px){
+    .headerContent{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .content_2 .links{
+        display: none;
+        
+    }
+
+    .bars{
+        display: block;
+    }
+
+
+    .container_3 h4{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 75px;
+    }
+    
+    .container_3 p{
+        margin-top: 20px;
+        font-family: Roboto-light;
+        max-width: 500px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21.09px;
+        color: white;
+    }
+
+
+    .aboutimg img{
+        max-width: 200px;
+    }
+
+    .abouttextbtn h4{
+        font-size: 30px;
+        max-width: 220px;
+        text-align: center;
+        margin:10px auto;
+    }
+
+    .abouttextbtn p{
+        font-size: 18px;
+        max-width: 300px;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    .abouttextbtn button{
+        margin: auto;
+    }
+
+
+    .about_Container{
+     display: flex;
+     margin-top: 30px;
+     flex-direction: column;
+     height: 100vh;
+    }
+
+
+    .Projects{
+        display: flex;
+        flex-direction: column;
+        background-image: url(/assets/img/projectBgg.svg);
+        background-size: cover;
+        height: 265vh;
+    }
+
+
+    .Project_Box{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        max-width: 1300px;
+    }
+
+
+    .titlebtn{
+     max-width: 380px;
+    
+    }
+    
+    
+    .box{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    
+    }
+    
+    
+    .box img{
+        margin-top: 30px;
+    }
+    
+    
+    .overlayBox{
+        position: absolute;
+        width: 100%;
+        max-width: 295px;
+        background: linear-gradient(#000000 100%, #000000 0%);
+        opacity: 50%;
+        bottom:0px;
+        height: 20vh;
+    }
+    
+    
+    .more{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        width: 100%;
+        max-width: 200px;
+        z-index: 1;
+        gap: 50px;
+        position: absolute;
+        bottom: 30px;
+    }
+    
+    .more >p{
+        max-width: 196px;
+        font-family: Roboto-medium;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23.44px;
+        color: #ffffff;
+    
+    }
+    
+    
+    
+    
+    .moreicon{
+        display: flex;
+        align-items: center;
+        font-family: Roboto-medium;
+        justify-content: left;
+        gap: 5px;
+        color: #B08968;
+        cursor: pointer;
+    }
+
+    .support_box{
+        max-width: 300px;
+        padding: 30px 30px;
+        height: 50vh;
+    }
+
+    .support_cotainer h3{
+        position: relative;
+        left: 0px;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .support_box h4{
+        font-size: 15px;
+    }
+
+    .news_container h4{
+        margin: auto;
+    }
+
+    .contactin{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .input_content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input_1 input[type="text"]{
+        padding: 14px 50px;
+        max-width: 300px;
+        margin: auto;
+
+    }
+
+    .input_container h4{
+        text-align: center;
+    }
+
+    .inputbtn textarea{
+       max-width: 300px;
+  
+    }
+    .inputbtn button{
+        margin: auto;
+    }
+
+    .footer_container{
+        display: flex;
+        flex-direction: column;
+    }
+}
